@@ -3,6 +3,26 @@
     background-color: blue;
   }
 }
+.bodyrestaurants, .bodyactivities, .bodysights, .bodyindex {
+  text-align: center;
+}
+
+.bodyindex {
+  background-color: aliceblue;
+}
+
+.bodysights {
+  background-color: bisque;
+}
+
+.bodyactivities {
+  background-color: lemonchiffon;
+}
+
+.bodyrestaurants {
+  background-color: honeydew;
+}
+
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
@@ -15,6 +35,20 @@ table td, table th {
 }
 table tr:nth-child(even) {
   background-color: #dddddd;
+}
+
+ul {
+  list-style-type: square;
+  text-align: left;
+  margin: 25px 400px;
+}
+
+#praag {
+  border-style: solid;
+}
+
+.navbar-brand {
+  background-color: Coral;
 }
 
 /*# sourceMappingURL=styles.css.map */
